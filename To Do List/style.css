@@ -1,0 +1,39 @@
+body{
+    font-family: Arial;
+    background-color: rgb(243, 230, 212);
+}
+
+#main-heading{
+    text-align: center;
+}
+.grid-container{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+}
+
+#todo-add, #todo-date{
+    font-size: 15px;
+    padding: 10px 5px;
+}
+
+.btn-dlt{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0px;
+    cursor: pointer;
+}
+.btn-add{
+    background-color: rgb(54, 120, 7);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0px;
+    cursor: pointer;
+}
